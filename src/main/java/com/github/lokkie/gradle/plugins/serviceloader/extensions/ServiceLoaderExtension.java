@@ -1,4 +1,4 @@
-package com.github.harbby.gradle.plugins.serviceloader.extensions;
+package com.github.lokkie.gradle.plugins.serviceloader.extensions;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,6 @@
-[![Build Status](https://travis-ci.org/harbby/gradle-serviceloader.svg?branch=master)](https://travis-ci.org/harbby/gradle-serviceloader)
+[![Build Status](https://travis-ci.org/lokkie/gradle-serviceloader.svg?branch=master)](https://travis-ci.org/lokkie/gradle-serviceloader)
+
+It's fork of https://github.com/harbby/gradle-serviceloader
 
 # gradle-serviceloader
 java code  plugin example
@@ -17,13 +19,13 @@ https://github.com/delphyne/gradle-serviceloader-manifest
 
 ## Installation
 
-https://plugins.gradle.org/plugin/com.github.harbby.gradle.serviceloader
+https://plugins.gradle.org/plugin/com.github.lokkie.gradle.serviceloader
 
 ### build.gradle
 Build script snippet for plugins DSL for Gradle 2.1 and later:
 ```groovy
 plugins {
-  id "com.github.harbby.gradle.serviceloader" version "1.1.2"
+  id "com.github.lokkie.gradle.serviceloader" version "1.1.2"
 }
 ```
 Build script snippet for use in older Gradle versions or where dynamic configuration is required:
@@ -35,11 +37,11 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.github.harbby:gradle-serviceloader:1.1.2"
+    classpath "gradle.plugin.com.github.lokkie:gradle-serviceloader:1.1.2"
   }
 }
 
-apply plugin: "com.github.harbby.gradle.serviceloader"
+apply plugin: "com.github.lokkie.gradle.serviceloader"
 ```
 
 ## Usage
@@ -60,18 +62,3 @@ serviceLoader {
     serviceInterface 'ideal.xx.xx.XXInterface'
 }
 ```
-
-## other
-The following is for testing
-```groovy
- apply plugin: 'com.github.harbby.gradle.serviceloader'
- 
- buildscript {
- 	repositories {
- 		maven { url 'https://harbby.github.io/.m2/repository/' }
- 	}
- 	dependencies {
- 		classpath 'com.github.harbby:gradle-serviceloader:1.1.2'
- 	}
- }
- ```

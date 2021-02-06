@@ -1,4 +1,4 @@
-package com.github.harbby.gradle.plugins.serviceloader.tasks;
+package com.github.lokkie.gradle.plugins.serviceloader.tasks;
 
 import org.gradle.api.Project;
 import org.gradle.api.file.FileCollection;

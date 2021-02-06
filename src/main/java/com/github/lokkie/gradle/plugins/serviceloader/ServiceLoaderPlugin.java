@@ -1,7 +1,7 @@
-package com.github.harbby.gradle.plugins.serviceloader;
+package com.github.lokkie.gradle.plugins.serviceloader;
 
-import com.github.harbby.gradle.plugins.serviceloader.extensions.ServiceLoaderExtension;
-import com.github.harbby.gradle.plugins.serviceloader.tasks.ServiceLoaderTask;
+import com.github.lokkie.gradle.plugins.serviceloader.extensions.ServiceLoaderExtension;
+import com.github.lokkie.gradle.plugins.serviceloader.tasks.ServiceLoaderTask;
 import org.gradle.api.Plugin;
 import org.gradle.api.Project;
 import org.gradle.api.plugins.JavaPlugin;
