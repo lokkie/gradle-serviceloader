@@ -25,7 +25,7 @@ https://plugins.gradle.org/plugin/com.github.lokkie.gradle.serviceloader
 Build script snippet for plugins DSL for Gradle 2.1 and later:
 ```groovy
 plugins {
-  id "com.github.lokkie.gradle.serviceloader" version "1.1.2"
+  id "com.github.lokkie.gradle.serviceloader" version "1.1.7"
 }
 ```
 Build script snippet for use in older Gradle versions or where dynamic configuration is required:
@@ -37,7 +37,7 @@ buildscript {
     }
   }
   dependencies {
-    classpath "gradle.plugin.com.github.lokkie:gradle-serviceloader:1.1.2"
+    classpath "gradle.plugin.com.github.lokkie:gradle-serviceloader:1.1.7"
   }
 }
 
